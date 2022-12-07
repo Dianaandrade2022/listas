@@ -13,6 +13,5 @@ public interface IndexListADT<T> {
     public int indexOf(T element);
     
     public T remove(int index);
-
     
 }

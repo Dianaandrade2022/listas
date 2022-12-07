@@ -3,7 +3,6 @@ package Listas;
 import java.util.NoSuchElementException;
 
 public class ArrayList<T> implements ListADT<T> {
-
     protected final int NOT_FOUND = -1;
     protected int rear;
     protected T[] list;
@@ -59,7 +58,6 @@ public class ArrayList<T> implements ListADT<T> {
     }
 
     public T first() {
-        // Actividad:Retornar el primer elemento de la lista
         return(list[0]);
     }
 

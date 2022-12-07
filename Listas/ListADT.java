@@ -22,6 +22,5 @@ public interface ListADT<T> {
 
     public ListADT<T> union (ListADT<T> set);
    
-    public String toString();     
-            
+    public String toString();            
 }
